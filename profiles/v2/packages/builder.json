@@ -1,0 +1,65 @@
+{
+  "__version__": "1.2.8",
+  "version": {
+    "builder": "1.2.3"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1625250315384": {
+        "id": "1625250315384",
+        "progress": 1,
+        "state": "success",
+        "message": "7-27-2022 15:49 Build success in 11595 ms!",
+        "options": {
+          "packages": {
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 1280,
+                "designHeight": 960
+              },
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "7b0c5d",
+              "services": []
+            }
+          },
+          "name": "ColyseusTechDemo-Cocos-MMO",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "72f80804-3ccb-48c3-85db-374282c9317c",
+          "scenes": [
+            {
+              "url": "db://assets/Cocos-MMO/Scenes/TowerScene.scene",
+              "uuid": "56ff2397-ea42-4f84-9461-6874411ff217",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/Cocos-MMO/Scenes/MMOLoginScene.scene",
+              "uuid": "72f80804-3ccb-48c3-85db-374282c9317c",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-desktop"
+        },
+        "time": "7-27-2022 15:48",
+        "dirty": false
+      }
+    }
+  },
+  "common": {
+    "startScene": "72f80804-3ccb-48c3-85db-374282c9317c"
+  }
+}

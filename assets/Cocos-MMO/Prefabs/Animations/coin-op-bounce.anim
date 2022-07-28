@@ -1,0 +1,182 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "coin-op-bounce",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "enableTrsBlending": false,
+    "_duration": 1,
+    "_keys": [
+      [
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      [
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      [
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      [
+        0.25,
+        0.5,
+        0.75,
+        1
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          "x"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          "y"
+        ],
+        "data": {
+          "keys": 1,
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          "z"
+        ],
+        "data": {
+          "keys": 2,
+          "values": [
+            0,
+            35,
+            0,
+            -35,
+            0
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          "x"
+        ],
+        "data": {
+          "keys": 3,
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 1
+      },
+      {
+        "modifiers": [
+          "y"
+        ],
+        "data": {
+          "keys": 4,
+          "values": [
+            0.5,
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 1
+      },
+      {
+        "modifiers": [
+          "z"
+        ],
+        "data": {
+          "keys": 5,
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 1
+      }
+    ],
+    "_commonTargets": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "eulerAngles"
+        ]
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 2
+          },
+          "position"
+        ]
+      }
+    ],
+    "_hash": 1792593774
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Model/PivotPoint"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Model/PivotPoint/Horse"
+  }
+]

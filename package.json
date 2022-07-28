@@ -1,0 +1,12 @@
+{
+  "creator": {
+    "version": "3.2.0"
+  },
+  "name": "ColyseusTechDemo-Cocos-MMO",
+  "type": "3d",
+  "uuid": "edde09ae-eb34-46a1-9d9a-b357063aaac0",
+  "version": "3.2.0",
+  "devDependencies": {
+    "@types/node": "^15.12.5"
+  }
+}
